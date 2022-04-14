@@ -23,7 +23,7 @@ document.getElementById("textonome").innerHTML = "Itadori";
 document.getElementById("textosituacao").innerHTML = "Humano";
 
 const span = document.querySelector("span");
-const img = document.querySelector("#teste");
+const img = document.querySelector("#imagemFinal");
 
 // div_id.addEventListener("click", () => {
 //     console.log("Eu fui clicado");
@@ -44,7 +44,7 @@ function handleChangeImg() {
     } else if (img.attributes.src.nodeValue == imgList[2]) {
         img.setAttribute("src", `${imgList[3]}`);
         document.getElementById("textonome").innerHTML = "Sukuna Lutando";
-        document.getElementById("textosituacao").innerHTML = "Rei das Maldicoes Bravo";
+        document.getElementById("textosituacao").innerHTML = "Rei das Maldições Bravo";
     } else {
         img.setAttribute("src", `${imgList[0]}`);
         document.getElementById("textonome").innerHTML = "Itadori";
