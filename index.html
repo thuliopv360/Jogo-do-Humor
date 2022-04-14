@@ -14,17 +14,21 @@
         <h1 id="titulo">Jogo do humor</h1>
         <img src="https://prod.cloud.rockstargames.com/crews/sc/0185/20242172/publish/emblem/emblem_256.png" alt="imagem do header" id="imagem">
     </header>
-    <section id="secao">
-        <h2 id="nome">Nome:
-            <span id="textonome"></span>
-        </h2>
+    <main id="container">
+        <section id="secao">
+            <h2 id="nome">Nome:
+                <span id="textonome"></span>
+            </h2>
 
-        <h4 id="situacao">Situação:
-            <span id="textosituacao"></span>
-        </h4>
-        <img src="./assets/img/itadori.png" alt="itadori humano" id="teste">
-        <button onclick="mudarNome(this)" value="alterar" id="botao">Alterar Situação</button>
-    </section>
+            <h4 id="situacao">Situação:
+                <span id="textosituacao"></span>
+            </h4>
+            <button onclick="handleChangeImg()" value="alterar" id="botao">Alterar Situação</button>
+        </section>
+        <figure>
+            <img src="./assets/img/itadori.png" alt="itadori humano" id="teste">
+        </figure>
+    </main>
     <script src="./assets/js/script.js"></script>
 </body>
 
