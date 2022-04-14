@@ -20,6 +20,16 @@ header.cabeca {
     font-size: 2rem;
 }
 
+main {
+    padding: 2rem;
+}
+
+main#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section#secao {
     color: white;
     padding: 5rem;
@@ -58,6 +68,7 @@ button#botao {
     border: 2px solid #6c8e29;
     border-radius: 2rem;
     cursor: pointer;
+    align-self: center;
 }
 
 button#botao:hover {
